@@ -1,14 +1,15 @@
 using UnityEngine;
 
+public enum BiomeType
+{
+    Park,
+    Street
+}
+
+// This will be used to change chunks, and anything that should be global.
 public class GameManager : MonoBehaviour
 {
-    public enum BiomeType
-    {
-        Park,
-        Street
-    }
 
-    public int score = 0;
     public BiomeType biome = BiomeType.Park;
 
     private void Start()
