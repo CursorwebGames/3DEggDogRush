@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 74481121476019312}
   - component: {fileID: 1198991132829386349}
   m_Layer: 0
-  m_Name: EggDog
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -554,7 +554,7 @@ Animator:
   m_GameObject: {fileID: 74481121476019315}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e2e7db5e401dc0240bd6552003779336, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
