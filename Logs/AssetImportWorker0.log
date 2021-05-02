@@ -1031,3 +1031,498 @@ Received Import Request.
 Start importing Assets/Animations/EggDog.controller using Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41502e0cee07058ac0f91b0fe58d768f') in 0.011080 seconds
   Import took 0.013597 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1787.
+Total: 2.927000 ms (FindLiveObjects: 0.428500 ms CreateObjectMapping: 0.074900 ms MarkObjects: 1.723100 ms  DeleteObjects: 0.698600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1424.678864 seconds.
+  path: Assets/Animations/EggDogRun.anim
+  artifactKey: Guid(9af47e2e8e132c04c9effe0521a01a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogRun.anim using Guid(9af47e2e8e132c04c9effe0521a01a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0ee39252b7d235420e2ef8e561feb0') in 0.017998 seconds
+  Import took 0.020053 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1790.
+Total: 3.704700 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.037800 ms MarkObjects: 2.429800 ms  DeleteObjects: 1.053800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 313.122676 seconds.
+  path: Assets/Prefabs/EggDog.prefab
+  artifactKey: Guid(349c26761a50e2b4b94a06294e0b0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggDog.prefab using Guid(349c26761a50e2b4b94a06294e0b0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e245cc1c628d9a80beb8ecd9e1bf4d1') in 0.100291 seconds
+  Import took 0.104093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.250005 seconds.
+  path: Assets/Prefabs/EggDog 1.prefab
+  artifactKey: Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggDog 1.prefab using Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d1174c225de9de0edfadf164a01c2e') in 0.020030 seconds
+  Import took 0.024408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.217167 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f77413724329944b63001675cdd1f2') in 0.017073 seconds
+  Import took 0.021274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.374328 seconds.
+  path: Assets/Animations/EggDogRun.anim
+  artifactKey: Guid(9af47e2e8e132c04c9effe0521a01a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogRun.anim using Guid(9af47e2e8e132c04c9effe0521a01a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd634e57c3d301a313e4e25d7e7d159bb') in 0.004966 seconds
+  Import took 0.008155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002536 seconds.
+  path: Assets/Animations/EggDogRun.anim
+  artifactKey: Guid(9af47e2e8e132c04c9effe0521a01a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogRun.anim using Guid(9af47e2e8e132c04c9effe0521a01a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd634e57c3d301a313e4e25d7e7d159bb') in 0.003804 seconds
+  Import took 0.006222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.522448 seconds.
+  path: Assets/Animations/EggDog.controller
+  artifactKey: Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDog.controller using Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5c776d70210cd2d9a2713a6d18b0f7') in 0.006194 seconds
+  Import took 0.011288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.909543 seconds.
+  path: Assets/Prefabs/EggDog.prefab
+  artifactKey: Guid(349c26761a50e2b4b94a06294e0b0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggDog.prefab using Guid(349c26761a50e2b4b94a06294e0b0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759e796ba7f083a3c0ee22b6775dffe6') in 0.018656 seconds
+  Import took 0.022946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.873985 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7509a52bf11f79165abb282e280c570') in 0.018483 seconds
+  Import took 0.020994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.481511 seconds.
+  path: Assets/Prefabs/EggDog.prefab
+  artifactKey: Guid(349c26761a50e2b4b94a06294e0b0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggDog.prefab using Guid(349c26761a50e2b4b94a06294e0b0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914cbfbc91968e1c33eafa275f24c7c6') in 0.022786 seconds
+  Import took 0.025885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.844719 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5c46ee3d4d0c70e90ede1c3ea84f6c') in 0.020841 seconds
+  Import took 0.025232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.849542 seconds.
+  path: Assets/Animations/EggDogJump.controller
+  artifactKey: Guid(0b6249ce9f625ac468319f5c21ee3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogJump.controller using Guid(0b6249ce9f625ac468319f5c21ee3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ece3852b113ad3f47d0a5159e0b5f7') in 0.007523 seconds
+  Import took 0.012206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.497724 seconds.
+  path: Assets/Animations/EggDogRun.controller
+  artifactKey: Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogRun.controller using Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eb9e6e9157b27eb28a28c1da65499e') in 0.004758 seconds
+  Import took 0.008551 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002243 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1794.
+Total: 2.741700 ms (FindLiveObjects: 0.238000 ms CreateObjectMapping: 0.048700 ms MarkObjects: 1.644700 ms  DeleteObjects: 0.809100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.001233 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e0a4e65aedce09909f7f0f48a6c8eb') in 0.082202 seconds
+  Import took 0.086102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.240591 seconds.
+  path: Assets/Animations/EggDogJump.controller
+  artifactKey: Guid(0b6249ce9f625ac468319f5c21ee3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogJump.controller using Guid(0b6249ce9f625ac468319f5c21ee3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c34256d248643b51a0c0b5af4e97aea') in 0.004869 seconds
+  Import took 0.008029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.783626 seconds.
+  path: Assets/Animations/EggDogRun.controller
+  artifactKey: Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogRun.controller using Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc59b33609b80feab8394a0585fb38ab') in 0.020093 seconds
+  Import took 0.024903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.131438 seconds.
+  path: Assets/Animations/EggDog.controller
+  artifactKey: Guid(0b6249ce9f625ac468319f5c21ee3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDog.controller using Guid(0b6249ce9f625ac468319f5c21ee3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0e65d9abbc8e8eb1f284fb67da10a7') in 0.014885 seconds
+  Import took 0.022799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.246184 seconds.
+  path: Assets/Animations/EggDog.controller
+  artifactKey: Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDog.controller using Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6d29e8cfe7018297e28fa5f0927205') in 0.006082 seconds
+  Import took 0.010499 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1798.
+Total: 2.928700 ms (FindLiveObjects: 0.273100 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.980400 ms  DeleteObjects: 0.609400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 736.209520 seconds.
+  path: Assets/Animations/EggDog.controller
+  artifactKey: Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDog.controller using Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1e70605c273faac4d5d2f87a84fb75') in 0.026488 seconds
+  Import took 0.030634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.400974 seconds.
+  path: Assets/Animations/EggDogJump.anim
+  artifactKey: Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogJump.anim using Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867c2eedb17415ce4a3cb10180ae1cb7') in 0.003573 seconds
+  Import took 0.005913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006380 seconds.
+  path: Assets/Animations/EggDogJump.anim
+  artifactKey: Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogJump.anim using Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867c2eedb17415ce4a3cb10180ae1cb7') in 0.003257 seconds
+  Import took 0.005892 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1801.
+Total: 2.405300 ms (FindLiveObjects: 0.136900 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.386400 ms  DeleteObjects: 0.835600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.975007 seconds.
+  path: Assets/Animations/EggDogRun.controller
+  artifactKey: Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogRun.controller using Guid(e2e7db5e401dc0240bd6552003779336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7845f7fef9a9427a2f393651104c3e24') in 0.022361 seconds
+  Import took 0.024954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1041.521307 seconds.
+  path: Assets/Animations/EggDogJump.anim
+  artifactKey: Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogJump.anim using Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1543d4bce6ccb0ffbe149c0f98ccc8c2') in 0.006323 seconds
+  Import took 0.012498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.859451 seconds.
+  path: Assets/Animations/EggDogJump.anim
+  artifactKey: Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogJump.anim using Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a1b2c4b38e8716e0b884c006168096') in 0.005073 seconds
+  Import took 0.010153 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 66.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1804.
+Total: 3.146900 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.035000 ms MarkObjects: 2.221000 ms  DeleteObjects: 0.661700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.842189 seconds.
+  path: Assets/Animations/Enemy
+  artifactKey: Guid(298ea87b8a5ade0448eba3313ea78045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy using Guid(298ea87b8a5ade0448eba3313ea78045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c271a2cb59fde90a816a38886329791b') in 0.006172 seconds
+  Import took 0.009228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.294724 seconds.
+  path: Assets/Animations/Enemy.controller
+  artifactKey: Guid(b9bb0703e7e56c74aa91aab9c6ae71ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy.controller using Guid(b9bb0703e7e56c74aa91aab9c6ae71ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd81452aaa626f809c14b3003a747898') in 0.017771 seconds
+  Import took 0.020609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004984 seconds.
+  path: Assets/Animations/Enemy.controller
+  artifactKey: Guid(b9bb0703e7e56c74aa91aab9c6ae71ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy.controller using Guid(b9bb0703e7e56c74aa91aab9c6ae71ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd81452aaa626f809c14b3003a747898') in 0.006363 seconds
+  Import took 0.009465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.695522 seconds.
+  path: Assets/Animations/EggDogJump.controller
+  artifactKey: Guid(b9bb0703e7e56c74aa91aab9c6ae71ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EggDogJump.controller using Guid(b9bb0703e7e56c74aa91aab9c6ae71ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec0139b22fba50ff7568855585d4d77') in 0.005398 seconds
+  Import took 0.010882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.319958 seconds.
+  path: Assets/Animations/Enemy/EggDog.controller
+  artifactKey: Guid(25929c3d494cd2c4b9b259b548018b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/EggDog.controller using Guid(25929c3d494cd2c4b9b259b548018b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6f6190aaeda697e4aef513450bf206') in 0.005562 seconds
+  Import took 0.009537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.344157 seconds.
+  path: Assets/Animations/Enemy/EggDogSpin.controller
+  artifactKey: Guid(25929c3d494cd2c4b9b259b548018b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/EggDogSpin.controller using Guid(25929c3d494cd2c4b9b259b548018b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0071ec51167d8e265af9701553cf8496') in 0.024890 seconds
+  Import took 0.027604 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 66.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1807.
+Total: 6.022700 ms (FindLiveObjects: 0.424600 ms CreateObjectMapping: 0.099000 ms MarkObjects: 3.542900 ms  DeleteObjects: 1.953100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 383.792754 seconds.
+  path: Assets/Animations/Enemy/EggDogJump.anim
+  artifactKey: Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/EggDogJump.anim using Guid(7fd0fb48a9988484290d069fd5a62114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ffa8f6bfbcfa7572da4ba69fbb19a8') in 0.042177 seconds
+  Import took 0.044646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.334558 seconds.
+  path: Assets/Animations/Enemy/EggDogJump.controller
+  artifactKey: Guid(b9bb0703e7e56c74aa91aab9c6ae71ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/EggDogJump.controller using Guid(b9bb0703e7e56c74aa91aab9c6ae71ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f93f2a4f42b157bb11ca31bc8cc3347') in 0.008078 seconds
+  Import took 0.012400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.688409 seconds.
+  path: Assets/Animations/Enemy/EggDogSpin.anim
+  artifactKey: Guid(415b1246495bea6469d55298d5ae7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy/EggDogSpin.anim using Guid(415b1246495bea6469d55298d5ae7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b04a7f3509e6d7d034c94a964f66cee') in 0.006830 seconds
+  Import took 0.009677 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001205 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 66.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1810.
+Total: 4.662700 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.043000 ms MarkObjects: 3.073900 ms  DeleteObjects: 1.205400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000879 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 66.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1813.
+Total: 2.937800 ms (FindLiveObjects: 0.317600 ms CreateObjectMapping: 0.059500 ms MarkObjects: 1.906900 ms  DeleteObjects: 0.650900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 66.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1816.
+Total: 5.288200 ms (FindLiveObjects: 0.200000 ms CreateObjectMapping: 0.055300 ms MarkObjects: 3.208700 ms  DeleteObjects: 1.821800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001310 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.987 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 66.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 3.362700 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.055500 ms MarkObjects: 2.237500 ms  DeleteObjects: 0.844700 ms)
+
