@@ -1171,6 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grounded: 1
+  moveSpeed: 100
   laneWidth: 3
   rb: {fileID: 2033148034}
   jumpHeight: 475
