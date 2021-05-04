@@ -6,6 +6,7 @@ TagManager:
   tags:
   - StreetChunk
   - ParkChunk
+  - Ground
   layers:
   - Default
   - TransparentFX
