@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.MovePosition(transform.position + new Vector3(horiz, 0, 0) * moveSpeed * Time.deltaTime);
 
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -laneWidth, laneWidth), Mathf.Clamp(transform.position.y, 2.135f, maxHeight), transform.position.z);
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -laneWidth, laneWidth), transform.position.y, transform.position.z);
 
         if (grounded && Input.GetAxis("Vertical") > 0)
         {
@@ -28,10 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.collider.CompareTag("Ground")) grounded = true;
         Debug.Log("start");
     }
-    //(Collision collision)
-    //{
-    //    if (collision.collider.CompareTag("Ground")) grounded = true;
-    //}
 }
