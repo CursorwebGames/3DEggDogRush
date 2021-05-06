@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 
 
 // This will be used to abstract level chunks and make chunks.
@@ -25,7 +24,7 @@ public class LevelManager : MonoBehaviour
         foreach (string biome in Enum.GetNames(typeof(BiomeType)))
         {
             BiomeType biomeEnum = (BiomeType)Enum.Parse(typeof(BiomeType), biome);
-            levelChunks.Add(biomeEnum, Resources.LoadAll<GameObject>(biome));
+            levelChunks.Add(biomeEnum, Resources.LoadAll<GameObject>($"obstacles/{biome}"));
         }
 
         gameManager = FindObjectOfType<GameManager>();
