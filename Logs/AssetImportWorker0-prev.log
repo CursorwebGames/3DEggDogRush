@@ -15,11 +15,11 @@ C:/Users/rqhua/unity-games/3DEggDogRush
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61568
+54595
 Successfully changed project path to: C:/Users/rqhua/unity-games/3DEggDogRush
 C:/Users/rqhua/unity-games/3DEggDogRush
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 65.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,46 +35,197 @@ Initialize mono
 Mono path[0] = 'C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002429 seconds.
+Registered in 0.006730 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 70.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.357 seconds
+- Completed reload, in  3.313 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000772 seconds.
+Registered in 0.002153 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
+- Completed reload, in  6.091 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 66.0 MB.
 System memory in use after: 66.0 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1685.
-Total: 1.983200 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.172800 ms MarkObjects: 1.362000 ms  DeleteObjects: 0.074900 ms)
+Total: 5.172100 ms (FindLiveObjects: 1.150800 ms CreateObjectMapping: 0.389400 ms MarkObjects: 3.454100 ms  DeleteObjects: 0.171500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/EggDog.prefab
-  artifactKey: Guid(349c26761a50e2b4b94a06294e0b0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EggDog.prefab using Guid(349c26761a50e2b4b94a06294e0b0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753db3ebd4a0981810388338df0addde') in 0.125079 seconds
-  Import took 0.128668 seconds .
+  path: Assets/Scripts/EggDogAnimations.cs
+  artifactKey: Guid(03b7e88d00247dd47a76b74f9332df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EggDogAnimations.cs using Guid(03b7e88d00247dd47a76b74f9332df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca44e6941926c79bc5ec1249c138d25') in 0.050838 seconds
+  Import took 0.054070 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.2 MB.
+System memory in use after: 39.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1685.
+Total: 5.803800 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.127200 ms MarkObjects: 5.266400 ms  DeleteObjects: 0.153600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34233.740550 seconds.
+  path: Assets/Fonts/Nunito-Light.ttf
+  artifactKey: Guid(9c2be3156d951e040aa22a3e4ea8b8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-Light.ttf using Guid(9c2be3156d951e040aa22a3e4ea8b8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a28257e8f88dccc82631aad16a04816') in 0.313805 seconds
+  Import took 0.364894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Fonts/Nunito-SemiBoldItalic.ttf
+  artifactKey: Guid(05b4637ec8ca3ff43a8cdb0848375d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-SemiBoldItalic.ttf using Guid(05b4637ec8ca3ff43a8cdb0848375d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027a48911e370efbbdc09124faa5d699') in 0.010037 seconds
+  Import took 0.012421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Fonts/Nunito-SemiBold.ttf
+  artifactKey: Guid(2518e5bbf39c0994c9fcaa96377dfde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-SemiBold.ttf using Guid(2518e5bbf39c0994c9fcaa96377dfde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e423f6adff52f20ac17f91a23d1e004') in 0.010025 seconds
+  Import took 0.012691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Fonts/Nunito-LightItalic.ttf
+  artifactKey: Guid(fa94c8710ad1e604a9f750db1cf195ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-LightItalic.ttf using Guid(fa94c8710ad1e604a9f750db1cf195ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a3e59e6ea84a40944bd949557d86de') in 0.013898 seconds
+  Import took 0.016258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Fonts/Nunito-Regular.ttf
+  artifactKey: Guid(6d4f4c7951a32614ebc8f8b2e97260db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-Regular.ttf using Guid(6d4f4c7951a32614ebc8f8b2e97260db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e35fee03e225bc475f3330f61f0227') in 0.016451 seconds
+  Import took 0.020813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Fonts/Nunito-Light.ttf
+  artifactKey: Guid(9c2be3156d951e040aa22a3e4ea8b8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-Light.ttf using Guid(9c2be3156d951e040aa22a3e4ea8b8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a28257e8f88dccc82631aad16a04816') in 0.010764 seconds
+  Import took 0.013195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.724000 seconds.
+  path: Assets/Fonts/Nunito-ExtraLightItalic.ttf
+  artifactKey: Guid(dd0958bb551cd4d42a4a9a046bcbff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-ExtraLightItalic.ttf using Guid(dd0958bb551cd4d42a4a9a046bcbff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ff862eac131194695a951cc4c6ee7b') in 0.017934 seconds
+  Import took 0.022229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Fonts/Nunito-Italic.ttf
+  artifactKey: Guid(76168ba59df624f4488b65c57c8b6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-Italic.ttf using Guid(76168ba59df624f4488b65c57c8b6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94113947aa51d45a959690ca7d590f07') in 0.013671 seconds
+  Import took 0.016330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Fonts/Nunito-ExtraLight.ttf
+  artifactKey: Guid(165bd5948db4d3e4db5988ae82b28787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-ExtraLight.ttf using Guid(165bd5948db4d3e4db5988ae82b28787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07909bac9a7657ab964069bfd5382291') in 0.011986 seconds
+  Import took 0.014639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Fonts/Nunito-ExtraBoldItalic.ttf
+  artifactKey: Guid(6153c4a058d8a074f87ab3b292a41f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-ExtraBoldItalic.ttf using Guid(6153c4a058d8a074f87ab3b292a41f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e595222655436c3be7c9309d410d25') in 0.014009 seconds
+  Import took 0.016684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083787 seconds.
+  path: Assets/Fonts/Nunito-BoldItalic.ttf
+  artifactKey: Guid(f81647e3be58b5b4e8ebd1c4c31046e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-BoldItalic.ttf using Guid(f81647e3be58b5b4e8ebd1c4c31046e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4656ee1989945ab4c7112ee715b19055') in 0.016354 seconds
+  Import took 0.019308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Fonts/Nunito-ExtraBold.ttf
+  artifactKey: Guid(e9751da90e996cb4d8c7bd714241e658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-ExtraBold.ttf using Guid(e9751da90e996cb4d8c7bd714241e658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8d20c384aaa9b79f96ac126fdd22b9') in 0.013747 seconds
+  Import took 0.016831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.462159 seconds.
+  path: Assets/Fonts/Nunito-BlackItalic.ttf
+  artifactKey: Guid(0fdc8bedc723aa2419528f694ed316d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-BlackItalic.ttf using Guid(0fdc8bedc723aa2419528f694ed316d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a23a9d8240163514cad6e8800053b0') in 0.025338 seconds
+  Import took 0.029239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Fonts/Nunito-Bold.ttf
+  artifactKey: Guid(423ee3e9c3b9089488f209fbbeba46a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-Bold.ttf using Guid(423ee3e9c3b9089488f209fbbeba46a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e628c8342fc6f43b33f50bc758547a0') in 0.013233 seconds
+  Import took 0.015706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Fonts/Nunito-Black.ttf
+  artifactKey: Guid(af513aef01248a245ae1e3f378557ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nunito-Black.ttf using Guid(af513aef01248a245ae1e3f378557ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f535295b67f1a7cc3669426fc4fdb024') in 0.014508 seconds
+  Import took 0.017162 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1210 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.7 MB.
+System memory in use after: 66.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 2.381100 ms (FindLiveObjects: 0.141000 ms CreateObjectMapping: 0.027700 ms MarkObjects: 2.064700 ms  DeleteObjects: 0.146500 ms)
+
