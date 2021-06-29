@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 985081303770310676}
   m_Layer: 0
   m_Name: Base
-  m_TagString: Untagged
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 8671689945776967954}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 1445614857586410617}
   m_Layer: 0
   m_Name: Left
-  m_TagString: Untagged
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 2497854076725678281}
   m_Layer: 0
   m_Name: Right
-  m_TagString: Untagged
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 7088762521196981504}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 4768641710367403828}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 4242715094102953884}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 4881836441615793977}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -621,6 +621,10 @@ PrefabInstance:
     - target: {fileID: 7968340851460086247, guid: fd3ff6721f23fe04dbe6bf44c83f1988, type: 3}
       propertyPath: m_Name
       value: Sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968340851460086247, guid: fd3ff6721f23fe04dbe6bf44c83f1988, type: 3}
+      propertyPath: m_TagString
+      value: Unjumpable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd3ff6721f23fe04dbe6bf44c83f1988, type: 3}

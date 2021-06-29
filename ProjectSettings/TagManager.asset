@@ -4,9 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - StreetChunk
-  - ParkChunk
   - Ground
+  - Unjumpable
   layers:
   - Default
   - TransparentFX
