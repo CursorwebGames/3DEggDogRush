@@ -659,3 +659,32 @@ Received Import Request.
 Start importing Assets/Animations/Enemy/Enemy.controller using Guid(6d7b0a59bad56cc41a0c83c9752a5ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c3016e85839cd9765d1d07e4ed32d2') in 0.029604 seconds
   Import took 0.035307 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1212 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1778.
+Total: 1.999900 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.734300 ms  DeleteObjects: 0.081600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2334.070550 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10451d7d6659378513d59433f370afa1') in 0.090326 seconds
+  Import took 0.095423 seconds .
+

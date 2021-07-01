@@ -6,6 +6,6 @@ public class EnemyAnimation : MonoBehaviour
 
     private void Start()
     {
-        animator.SetInteger("AnimNum", Random.Range(0, 1));
+        animator.SetInteger("AnimNum", Random.Range(0, 2));
     }
 }
