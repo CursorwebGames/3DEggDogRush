@@ -79,7 +79,7 @@ GameObject:
   - component: {fileID: 912445832803587767}
   m_Layer: 0
   m_Name: Support
-  m_TagString: Beams
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 6259699982065286201}
   m_Layer: 0
   m_Name: Support
-  m_TagString: Beams
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 3144848071913218364}
   m_Layer: 0
   m_Name: Support
-  m_TagString: Beams
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 4211084094239004366}
   m_Layer: 0
   m_Name: Support
-  m_TagString: Beams
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 6736171324674711490}
   m_Layer: 0
   m_Name: Support
-  m_TagString: Beams
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -746,7 +746,7 @@ GameObject:
   - component: {fileID: 5426298310763702811}
   m_Layer: 0
   m_Name: Support
-  m_TagString: Beams
+  m_TagString: Unjumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1220,10 +1220,6 @@ PrefabInstance:
     - target: {fileID: 1423810502233632175, guid: 745eeeef03f93d94896b24482813f5c1, type: 3}
       propertyPath: m_Name
       value: Street7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1423810502233632175, guid: 745eeeef03f93d94896b24482813f5c1, type: 3}
-      propertyPath: m_TagString
-      value: Unjumpable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 745eeeef03f93d94896b24482813f5c1, type: 3}
