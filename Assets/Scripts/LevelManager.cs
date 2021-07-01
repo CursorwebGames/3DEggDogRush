@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour
     public float maxTick;
 
     private GameManager gameManager;
+    private TextUpdater textUpdater;
     private BiomeType biome;
 
     private void Start()
@@ -33,6 +34,7 @@ public class LevelManager : MonoBehaviour
             levelChunks.Add(biomeEnum, Resources.LoadAll<GameObject>($"obstacles/{biome}"));
         }
 
+        textUpdater = FindObjectOfType<TextUpdater>();
         gameManager = FindObjectOfType<GameManager>();
         biome = gameManager.biome;
     }
@@ -50,5 +52,11 @@ public class LevelManager : MonoBehaviour
             Instantiate(prefab, offset, Quaternion.identity);
             Instantiate(boneBreak, offset + boneOffset, Quaternion.identity);
         }
+    }
+
+    public void AddScore(int num = 1)
+    {
+        score += num;
+        textUpdater.UpdateScore();
     }
 }

@@ -1,23 +1,26 @@
 using UnityEngine;
 
-public class BoneManager : MonoBehaviour
+public class EnemyCollider : MonoBehaviour
 {
+    public bool isTouched = false;
     private LevelManager levelManager;
-    private TextUpdater textUpdater;
 
     private void Start()
     {
         levelManager = FindObjectOfType<LevelManager>();
-        textUpdater = FindObjectOfType<TextUpdater>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        // prevent the function being called more than once
+        if (isTouched) return;
+        isTouched = true;
+
         if (other.CompareTag("Player"))
         {
-            levelManager.score++;
-            textUpdater.UpdateScore();
+            levelManager.AddScore(10);
             Destroy(gameObject);
-        }
+            // todo: add smash animation
+        }   
     }
 }

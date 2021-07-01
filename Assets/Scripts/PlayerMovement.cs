@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (vert < 0)
         {
-            if (!grounded && transform.position.y > 0.5f) transform.position -= new Vector3(0, 0.3f, 0);
+            if (!grounded && transform.position.y > 0.5f) rb.AddForce(0, -jumpHeight / 2, 0);
             if (!dodging)
             {
                 eggDogAnimations.Dodge();
