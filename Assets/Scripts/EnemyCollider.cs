@@ -3,6 +3,8 @@ using UnityEngine;
 public class EnemyCollider : MonoBehaviour
 {
     public bool isTouched = false;
+    public GameObject enemyObject;
+
     private LevelManager levelManager;
 
     private void Start()
@@ -19,7 +21,7 @@ public class EnemyCollider : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             levelManager.AddScore(10);
-            Destroy(gameObject);
+            Destroy(enemyObject);
             // todo: add smash animation
         }   
     }
