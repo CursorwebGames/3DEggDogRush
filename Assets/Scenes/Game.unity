@@ -350,6 +350,7 @@ MonoBehaviour:
   rightOffset: {x: 9, y: 0, z: 20}
   boneOffset: {x: 0, y: 1, z: 15}
   tick: 0
+  sceneTick: 0
   maxTick: 2
 --- !u!114 &630406062
 MonoBehaviour:
