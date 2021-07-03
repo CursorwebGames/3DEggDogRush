@@ -352,6 +352,7 @@ MonoBehaviour:
   tick: 0
   sceneTick: 0
   maxTick: 2
+  meshRenderer: {fileID: 2057819207}
 --- !u!114 &630406062
 MonoBehaviour:
   m_ObjectHideFlags: 0

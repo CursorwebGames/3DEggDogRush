@@ -12,8 +12,12 @@ public class LevelManager : MonoBehaviour
 {
     public int score = 0;
     public GameObject boneBreak;
+
     public Dictionary<BiomeType, GameObject[]> levelChunks = new Dictionary<BiomeType, GameObject[]>();
     public Dictionary<BiomeType, GameObject[]> sceneChunks = new Dictionary<BiomeType, GameObject[]>();
+
+    public Dictionary<BiomeType, Material> levelMats = new Dictionary<BiomeType, Material>();
+    //public Dictionary<BiomeType, Material> sceneMats = new Dictionary<BiomeType, Material>();
 
     public Vector3 offset;
     public Vector3 leftOffset;
@@ -23,6 +27,8 @@ public class LevelManager : MonoBehaviour
     public float tick = 0;
     public float sceneTick = 0;
     public float maxTick;
+
+    public MeshRenderer meshRenderer;
 
     private GameManager gameManager;
     private TextUpdater textUpdater;
@@ -37,11 +43,14 @@ public class LevelManager : MonoBehaviour
             BiomeType biomeEnum = (BiomeType)Enum.Parse(typeof(BiomeType), biome);
             levelChunks.Add(biomeEnum, Resources.LoadAll<GameObject>($"obstacles/{biome}"));
             sceneChunks.Add(biomeEnum, Resources.LoadAll<GameObject>($"scenes/{biome}"));
+            levelMats.Add(biomeEnum, Resources.Load<Material>($"materials/{biome}/background"));
         }
 
         textUpdater = FindObjectOfType<TextUpdater>();
         gameManager = FindObjectOfType<GameManager>();
         biome = gameManager.biome;
+
+        meshRenderer.material = levelMats[biome];
     }
 
     private void Update()
