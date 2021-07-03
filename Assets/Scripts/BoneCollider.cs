@@ -16,9 +16,12 @@ public class BoneCollider : MonoBehaviour
     {
         if (isTouched) return;
 
-        isTouched = true;
+        if (other.CompareTag("Player"))
+        {
+            isTouched = true;
 
-        levelManager.AddScore();
-        Destroy(boneObj);
+            levelManager.AddScore();
+            Destroy(boneObj);
+        }
     }
 }

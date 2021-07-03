@@ -16,10 +16,10 @@ public class EnemyCollider : MonoBehaviour
     {
         // prevent the function being called more than once
         if (isTouched) return;
-        isTouched = true;
 
         if (other.CompareTag("Player"))
         {
+            isTouched = true;
             levelManager.AddScore(10);
             Destroy(enemyObject);
             // todo: add smash animation
