@@ -13,11 +13,15 @@ public class LevelManager : MonoBehaviour
     public int score = 0;
     public GameObject boneBreak;
     public Dictionary<BiomeType, GameObject[]> levelChunks = new Dictionary<BiomeType, GameObject[]>();
+    public Dictionary<BiomeType, GameObject[]> sceneChunks = new Dictionary<BiomeType, GameObject[]>();
 
     public Vector3 offset;
+    public Vector3 leftOffset;
+    public Vector3 rightOffset;
     public Vector3 boneOffset;
 
     public float tick = 0;
+    public float sceneTick = 0;
     public float maxTick;
 
     private GameManager gameManager;
@@ -32,6 +36,7 @@ public class LevelManager : MonoBehaviour
         {
             BiomeType biomeEnum = (BiomeType)Enum.Parse(typeof(BiomeType), biome);
             levelChunks.Add(biomeEnum, Resources.LoadAll<GameObject>($"obstacles/{biome}"));
+            sceneChunks.Add(biomeEnum, Resources.LoadAll<GameObject>($"scenes/{biome}"));
         }
 
         textUpdater = FindObjectOfType<TextUpdater>();
@@ -42,15 +47,32 @@ public class LevelManager : MonoBehaviour
     private void Update()
     {
         GameObject[] chunkArr = levelChunks[biome];
+        GameObject[] sceneArr = sceneChunks[biome];
 
         tick += Time.deltaTime;
+        sceneTick += Time.deltaTime;
         if (tick > maxTick)
         {
             tick = 0;
             int index = UnityEngine.Random.Range(0, chunkArr.Length);
+
             GameObject prefab = chunkArr[index];
+
             Instantiate(prefab, offset, Quaternion.identity);
             Instantiate(boneBreak, offset + boneOffset, Quaternion.identity);
+        }
+
+        if (sceneTick > maxTick / 2)
+        {
+            sceneTick = 0;
+            int index = UnityEngine.Random.Range(0, sceneArr.Length);
+            int index2 = UnityEngine.Random.Range(0, sceneArr.Length);
+
+            GameObject left = sceneArr[index];
+            GameObject right = sceneArr[index2];
+
+            Instantiate(left, leftOffset, Quaternion.identity);
+            Instantiate(right, rightOffset, Quaternion.identity);
         }
     }
 

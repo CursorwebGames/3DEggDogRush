@@ -15,11 +15,11 @@ C:/Users/rqhua/unity-games/3DEggDogRush
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64593
+54372
 Successfully changed project path to: C:/Users/rqhua/unity-games/3DEggDogRush
 C:/Users/rqhua/unity-games/3DEggDogRush
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 82.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,589 +35,1997 @@ Initialize mono
 Mono path[0] = 'C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/rqhua/unity-games/UnityVersions/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007310 seconds.
+Registered in 0.007332 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 65.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.047 seconds
+- Completed reload, in  3.042 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002547 seconds.
+Registered in 0.002064 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.736 seconds
+- Completed reload, in  2.380 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.1 MB.
-System memory in use after: 66.1 MB.
+Unloading 1612 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.9 MB.
+System memory in use after: 82.9 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1689.
-Total: 3.606400 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.070200 ms MarkObjects: 3.033000 ms  DeleteObjects: 0.302400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27cb84277fe3ae610d5d909585df04d') in 0.282975 seconds
-  Import took 0.288932 seconds .
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 4.722200 ms (FindLiveObjects: 0.386400 ms CreateObjectMapping: 0.140200 ms MarkObjects: 3.590100 ms  DeleteObjects: 0.603300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07656d8b781278a3e37e8c33ecc14e02') in 0.063760 seconds
-  Import took 0.070457 seconds .
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(2b9251b2134b446449d6d3157579e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5029690ed1a11e79b196e5350191df1a') in 0.242606 seconds
+  Import took 0.249593 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.726203 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5301325d0a151da84c8a7ba509c1445a') in 0.057305 seconds
-  Import took 0.062961 seconds .
+  Time since last request: 2679.869680 seconds.
+  path: Assets/Textures/Dirt.jpg
+  artifactKey: Guid(4201329017dc8db439e64072b47d7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Dirt.jpg using Guid(4201329017dc8db439e64072b47d7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0040628e8408b3f39cac28fe1f79aa6') in 0.045090 seconds
+  Import took 0.048744 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000543 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c9322a38ec90f7875c53251b3682fd') in 0.053672 seconds
-  Import took 0.059339 seconds .
+  Time since last request: 0.000296 seconds.
+  path: Assets/Textures/EggDog.png
+  artifactKey: Guid(90d880c081da88948b3085312198648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/EggDog.png using Guid(90d880c081da88948b3085312198648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba3b2587d879e2798f1dacb2636f065') in 0.011408 seconds
+  Import took 0.013822 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.521528 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c98db140a71c0e9a3f5b30a5dec7b3') in 0.055398 seconds
-  Import took 0.061689 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Assets/Textures/Stripes.png
+  artifactKey: Guid(3756f3d5c6531c44c8fa00cd22257e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stripes.png using Guid(3756f3d5c6531c44c8fa00cd22257e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f89836de19beeeb7d7a56f4a8818f2d') in 0.011999 seconds
+  Import took 0.014988 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000812 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1340eeb05f6ce5905a757f5bcf94336f') in 0.055133 seconds
-  Import took 0.062670 seconds .
+  Time since last request: 0.000378 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010217 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012851 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.756927 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d871513bf806c8b8a5e165dbcdabde') in 0.056184 seconds
-  Import took 0.063966 seconds .
+  Time since last request: 0.017296 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009794 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014954 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630c221cfe4fd01c7d10ea51bca65813') in 0.048711 seconds
-  Import took 0.056565 seconds .
+  Time since last request: 0.011775 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010086 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014579 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.134912 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926bf479baf41f4967b12b7a8339c146') in 0.057565 seconds
-  Import took 0.063221 seconds .
+  Time since last request: 0.013185 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010290 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014447 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50eb0a5a3900498ef5b5a99862c3c4a2') in 0.045979 seconds
-  Import took 0.051866 seconds .
+  Time since last request: 0.015526 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011426 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013963 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003997 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50eb0a5a3900498ef5b5a99862c3c4a2') in 0.056071 seconds
-  Import took 0.062280 seconds .
+  Time since last request: 0.015000 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008445 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013559 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.386514 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9abaccc8f6a5c11322b9d967f255e4') in 0.057441 seconds
-  Import took 0.064607 seconds .
+  Time since last request: 0.012212 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009563 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015152 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000766 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bedcd596b8f286dd9debf3989a3bc8c') in 0.071525 seconds
-  Import took 0.078967 seconds .
+  Time since last request: 0.014765 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011142 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.366676 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894836f486f04707d7890c4d43a3b469') in 0.069818 seconds
-  Import took 0.077123 seconds .
+  Time since last request: 0.010216 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008092 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013675 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000787 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0e7397d1a3050ac26fd0b301e39879') in 0.061045 seconds
-  Import took 0.067635 seconds .
+  Time since last request: 0.017644 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009515 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013757 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003069 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0e7397d1a3050ac26fd0b301e39879') in 0.077300 seconds
-  Import took 0.083945 seconds .
+  Time since last request: 0.012502 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012472 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015749 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.270440 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08d590719de0ba1913913970ebd3993') in 0.058642 seconds
-  Import took 0.066247 seconds .
+  Time since last request: 0.015040 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007401 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.010550 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000708 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d56f7b99b13d6a834211fef36de919') in 0.058520 seconds
-  Import took 0.067815 seconds .
+  Time since last request: 0.012332 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010776 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014472 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.760478 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add06714252307e73f66e3dd470245d9') in 0.075894 seconds
-  Import took 0.083178 seconds .
+  Time since last request: 0.017513 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010025 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012746 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1545da955db18caae47b24c179d5a59b') in 0.072321 seconds
-  Import took 0.078230 seconds .
+  Time since last request: 0.010787 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010479 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016920 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001319 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1545da955db18caae47b24c179d5a59b') in 0.051055 seconds
-  Import took 0.058213 seconds .
+  Time since last request: 0.008644 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008802 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015298 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.283725 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e999a51cf6eeab3dc4cad2311fc17ad') in 0.057459 seconds
-  Import took 0.065453 seconds .
+  Time since last request: 0.014455 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010747 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013401 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000557 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd601658c0a80195bb66057b0cdbf006') in 0.057339 seconds
-  Import took 0.062895 seconds .
+  Time since last request: 0.015609 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007684 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.011069 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.375176 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308585941081fae90c964dbdf654eca1') in 0.049905 seconds
-  Import took 0.057319 seconds .
+  Time since last request: 0.012773 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010814 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015593 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f601bb5c8b77599031da33ff63cf6ea8') in 0.068672 seconds
-  Import took 0.076605 seconds .
+  Time since last request: 0.013991 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007896 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012987 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.955211 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92709b40ecd4fdea66022b88a532b31') in 0.049024 seconds
-  Import took 0.056131 seconds .
+  Time since last request: 0.011585 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009773 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015611 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000676 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f48ce2492260d2f6a66933c973dcc9e') in 0.050628 seconds
-  Import took 0.056177 seconds .
+  Time since last request: 0.017358 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011659 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015074 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.151003 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329acab8e6e09f6fa59288afcdeb6518') in 0.049791 seconds
-  Import took 0.056808 seconds .
+  Time since last request: 0.013493 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010963 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013633 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1726bd5a090b44b980df68c4b6f07ca') in 0.055382 seconds
-  Import took 0.061566 seconds .
+  Time since last request: 0.012026 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006736 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.011503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.675045 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7356cbdfedf8cf15f4f484a0b103b8') in 0.057761 seconds
-  Import took 0.065088 seconds .
+  Time since last request: 0.012774 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010927 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016119 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000522 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b079ee98c5c8adfd4c858af7456f18cd') in 0.053914 seconds
-  Import took 0.060986 seconds .
+  Time since last request: 0.013560 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007653 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012136 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.787767 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e049cf1f3ce6bc0819cfccf172e06a2') in 0.056105 seconds
-  Import took 0.063135 seconds .
+  Time since last request: 0.016191 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008875 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012191 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000750 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb41a3b025d2cbdc6027c8f3eeb5828') in 0.051531 seconds
-  Import took 0.057454 seconds .
+  Time since last request: 0.014357 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009386 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015082 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.059871 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94273977b2b745e8a49b65aeb08c1284') in 0.053039 seconds
-  Import took 0.058428 seconds .
+  Time since last request: 0.013198 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010587 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013781 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd940d1841fdbbdeec6a03f3723e77b32') in 0.048981 seconds
-  Import took 0.055868 seconds .
+  Time since last request: 0.010037 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008417 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014292 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004564 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd940d1841fdbbdeec6a03f3723e77b32') in 0.061330 seconds
-  Import took 0.066912 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000991 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.908 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.6 MB.
-System memory in use after: 68.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1702.
-Total: 2.710200 ms (FindLiveObjects: 0.256000 ms CreateObjectMapping: 0.056900 ms MarkObjects: 2.316200 ms  DeleteObjects: 0.078700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000873 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.6 MB.
-System memory in use after: 68.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1705.
-Total: 1.654500 ms (FindLiveObjects: 0.125400 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.445000 ms  DeleteObjects: 0.047300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000995 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.922 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.6 MB.
-System memory in use after: 68.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1708.
-Total: 2.080000 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.818100 ms  DeleteObjects: 0.086800 ms)
+  Time since last request: 0.025411 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009164 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014610 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5339.698704 seconds.
-  path: Assets/Resources/Obstacles/Street/Street1.prefab
-  artifactKey: Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street1.prefab using Guid(b61fa18022c05b544a338b0a3201ef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf98617b25b5f79cd7ff56e383d2c60') in 0.085429 seconds
-  Import took 0.089958 seconds .
+  Time since last request: 0.012784 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011253 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014969 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Resources/Obstacles/Street/Street4.prefab
-  artifactKey: Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street4.prefab using Guid(ca9262a5020526242afce2c317c5325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc57c83c66515a6a9cf51670a43b986') in 0.042058 seconds
-  Import took 0.044848 seconds .
+  Time since last request: 0.014910 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010151 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014243 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.503577 seconds.
-  path: Assets/Resources/Obstacles/Street/Street3.prefab
-  artifactKey: Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street3.prefab using Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a995e0371aac465f5e0273130a388026') in 0.031311 seconds
-  Import took 0.036153 seconds .
+  Time since last request: 0.019258 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010018 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014610 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.675372 seconds.
-  path: Assets/Resources/Obstacles/Street/Street3.prefab
-  artifactKey: Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street3.prefab using Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e201945969e6f404b342927bf9fbef2f') in 0.029031 seconds
-  Import took 0.032738 seconds .
+  Time since last request: 0.015401 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016683 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.020717 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.046743 seconds.
-  path: Assets/Resources/Obstacles/Street/Street3.prefab
-  artifactKey: Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street3.prefab using Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89270b9a89549ad2c0be7e2a66092d29') in 0.029743 seconds
-  Import took 0.034750 seconds .
+  Time since last request: 0.020598 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008059 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012464 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.220884 seconds.
-  path: Assets/Resources/Obstacles/Street/Street3.prefab
-  artifactKey: Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street3.prefab using Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc802c8c3f632b295b2d0bdfc0b3137') in 0.029347 seconds
-  Import took 0.034440 seconds .
+  Time since last request: 0.017455 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010768 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015972 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.631188 seconds.
-  path: Assets/Resources/Obstacles/Street/Street3.prefab
-  artifactKey: Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street3.prefab using Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e78910641071b601639ae0bc820d3e1') in 0.027357 seconds
-  Import took 0.030642 seconds .
+  Time since last request: 0.015355 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010626 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.210747 seconds.
-  path: Assets/Resources/Obstacles/Street/Street3.prefab
-  artifactKey: Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Obstacles/Street/Street3.prefab using Guid(448f4a6f5ff8ea14fb66542605aa1588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed56e1a71dc6b5c7f6f979ffb9e0a82') in 0.034659 seconds
-  Import took 0.038781 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001420 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.7 MB.
-System memory in use after: 68.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1712.
-Total: 2.253400 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.920500 ms  DeleteObjects: 0.137900 ms)
+  Time since last request: 0.014088 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009145 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013639 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 932.603017 seconds.
-  path: Assets/Resources/Scenes/Park
-  artifactKey: Guid(085cf4e4d682db844b084fdc562f6858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/Park using Guid(085cf4e4d682db844b084fdc562f6858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a6112215100dfd2480e6c89c3cc021') in 0.010382 seconds
-  Import took 0.013909 seconds .
+  Time since last request: 0.018214 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010920 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013660 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.762907 seconds.
-  path: Assets/Resources/Scenes/Street
-  artifactKey: Guid(e5a7a08b09c71384c81296c2bea9fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/Street using Guid(e5a7a08b09c71384c81296c2bea9fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81484d6f32f4f6b8c51b741eac790f5d') in 0.003083 seconds
-  Import took 0.005342 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000943 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.7 MB.
-System memory in use after: 68.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1715.
-Total: 9.316200 ms (FindLiveObjects: 1.614500 ms CreateObjectMapping: 1.720700 ms MarkObjects: 5.821000 ms  DeleteObjects: 0.157000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001036 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1574 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.4 MB.
-System memory in use after: 82.5 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2057.
-Total: 6.226500 ms (FindLiveObjects: 0.997500 ms CreateObjectMapping: 0.211100 ms MarkObjects: 3.755900 ms  DeleteObjects: 1.256600 ms)
+  Time since last request: 0.017597 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010062 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4635.363714 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat
-  artifactKey: Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat using Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2b5a19294acf14a70f985b8d851e29') in 0.121688 seconds
-  Import took 0.127997 seconds .
+  Time since last request: 0.023884 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010162 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014228 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
-  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b708c29cb98568ce8c4babd79b1e01') in 0.042982 seconds
-  Import took 0.046568 seconds .
+  Time since last request: 0.016082 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009719 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014316 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
-  artifactKey: Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat using Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf3737bd9aa2167c4cdb8470fcb4d17') in 0.035823 seconds
-  Import took 0.039083 seconds .
+  Time since last request: 0.017083 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010461 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013731 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat
-  artifactKey: Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat using Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8918e847e3647264c4c6defd4c6416c4') in 0.015566 seconds
-  Import took 0.018706 seconds .
+  Time since last request: 0.086054 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011917 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016008 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat
-  artifactKey: Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat using Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1fc680ef0b523313f28c26577b80fd') in 0.016833 seconds
-  Import took 0.021378 seconds .
+  Time since last request: 0.019120 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010989 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat
-  artifactKey: Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat using Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f771351541fd7fa5ad69e68b7450ebfc') in 0.009540 seconds
-  Import took 0.012285 seconds .
+  Time since last request: 0.017187 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011042 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014283 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.013410 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008993 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027009 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012520 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.017134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034009 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011316 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014881 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010356 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072326 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011643 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.017051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073733 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012843 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083087 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014268 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.017600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076961 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009464 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017772 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011088 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023482 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006354 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.010048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019118 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009591 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018075 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012089 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016150 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010944 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023443 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011931 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017537 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007214 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.010677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020228 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009069 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016605 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011213 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022425 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009787 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017580 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009789 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024977 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010122 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016676 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011095 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019240 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010895 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018240 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010402 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018737 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010747 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013729 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008724 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020258 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009305 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014451 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008251 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018887 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010593 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016885 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011721 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022387 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013092 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.017999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018656 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007730 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027073 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010080 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016826 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011828 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019775 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009157 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014114 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010091 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017172 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009455 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017714 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008481 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019734 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007711 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.011174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012774 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011071 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015213 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009950 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014738 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009572 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020320 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010352 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017479 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010766 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015632 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009112 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015555 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010976 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021054 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007914 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.010807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015249 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012933 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.018368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021753 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008321 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013832 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010880 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016043 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009972 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019268 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010889 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019170 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010825 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018810 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013776 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.019383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019323 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011998 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022698 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011530 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031851 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012867 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021002 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010234 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017058 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013365 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.018930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022733 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010608 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021635 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011114 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017775 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010901 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019594 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011354 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022050 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010534 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021107 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009619 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017021 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009630 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021346 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011505 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019779 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010245 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025682 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011442 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.017029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023129 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011024 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016330 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011128 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014614 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016894 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.021871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015127 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009950 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026232 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008018 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.010852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019421 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008361 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018759 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009528 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017132 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010609 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016014 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009064 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017739 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010470 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015768 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010933 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.017507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016441 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010083 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018781 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019841 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.025330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018532 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008954 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022006 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010978 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019599 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011934 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018939 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010183 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016398 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010237 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017600 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008483 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032838 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010796 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020307 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011223 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016707 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010217 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017078 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010254 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019551 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009599 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019349 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010776 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.017140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016518 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011449 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020390 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008834 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015267 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011317 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016671 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010178 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018340 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009464 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021650 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008086 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015382 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011093 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015859 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010902 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016574 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009795 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019569 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008384 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014976 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008828 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015728 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009260 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015803 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009375 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020547 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010712 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018792 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010307 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017186 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011953 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.020589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015785 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009565 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018259 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012064 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.017497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015644 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010805 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017403 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008338 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014746 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010606 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025747 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009403 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024743 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010535 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018020 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011187 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020273 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009298 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023435 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010068 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019168 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010302 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021469 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009969 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016776 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008846 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007764 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009154 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005387 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009539 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015398 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008167 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010306 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010396 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011809 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008870 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016990 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011307 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009418 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010482 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011730 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009709 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011255 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008734 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015562 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010837 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013086 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017017 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.020716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002469 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010379 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013097 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010741 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014566 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007800 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.010680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012983 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009640 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014935 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011156 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009750 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010205 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015463 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010508 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015952 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012056 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008179 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009975 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014428 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010878 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011210 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009881 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016071 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009681 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012347 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007648 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.010873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012674 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010589 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013555 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011501 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011343 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007876 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015385 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011974 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.016491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015104 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009684 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016603 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009774 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.015891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017589 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010881 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019123 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010364 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.017043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015033 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010957 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014993 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008588 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.012548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016996 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009736 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019902 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009261 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015344 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010274 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014122 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010197 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.014967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019803 seconds.
+  path: Assets/Textures/Rock.jpg
+  artifactKey: Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock.jpg using Guid(8234319bd48c1d943a9fcc8efc55d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009195 seconds
+  ERROR: Build asset version error: assets/textures/rock.jpg in SourceAssetDB has modification time of '2021-07-02T02:19:18.1666083Z' while content on disk has modification time of '2021-07-02T02:19:38.304373Z'
+  Import took 0.013722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.259747 seconds.
+  path: Assets/Materials/Rock.mat
+  artifactKey: Guid(fdbaee7115850514c95fcb90e7467fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rock.mat using Guid(fdbaee7115850514c95fcb90e7467fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10a37da4f6d1681dad357aeb0576434') in 0.060244 seconds
+  Import took 0.065203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.190344 seconds.
+  path: Assets/Materials/Rock.mat
+  artifactKey: Guid(fdbaee7115850514c95fcb90e7467fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rock.mat using Guid(fdbaee7115850514c95fcb90e7467fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a84212257c15610d4398fa3db59f664') in 0.017866 seconds
+  Import took 0.020548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.805034 seconds.
+  path: Assets/Resources/Scenes/Street/Rock.prefab
+  artifactKey: Guid(41a7d3d761c2c6547af5fcaa53886922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Street/Rock.prefab using Guid(41a7d3d761c2c6547af5fcaa53886922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2f9a9783566f9e6dfcc62bae0b6cd1') in 0.019765 seconds
+  Import took 0.024692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000921 seconds.
+  path: Assets/Resources/Scenes/Street/Rock.prefab
+  artifactKey: Guid(41a7d3d761c2c6547af5fcaa53886922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Street/Rock.prefab using Guid(41a7d3d761c2c6547af5fcaa53886922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2f9a9783566f9e6dfcc62bae0b6cd1') in 0.006055 seconds
+  Import took 0.009481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.972679 seconds.
+  path: Assets/Resources/Scenes/Street/Rock.prefab
+  artifactKey: Guid(41a7d3d761c2c6547af5fcaa53886922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Street/Rock.prefab using Guid(41a7d3d761c2c6547af5fcaa53886922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba5bc687962779a423cecc4cbabe753') in 0.011548 seconds
+  Import took 0.016120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.424677 seconds.
+  path: Assets/Resources/Scenes/Street/Rock.prefab
+  artifactKey: Guid(41a7d3d761c2c6547af5fcaa53886922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Street/Rock.prefab using Guid(41a7d3d761c2c6547af5fcaa53886922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fae0c760212faddd4a296c7e40ce1dc') in 0.009030 seconds
+  Import took 0.014846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.408443 seconds.
+  path: Assets/Resources/Scenes/Street/Signs.prefab
+  artifactKey: Guid(c6e615117bc67554aac2c2f32f529302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Street/Signs.prefab using Guid(c6e615117bc67554aac2c2f32f529302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca39411b953555f9e82c81382097cc0') in 0.018784 seconds
+  Import took 0.022188 seconds .
+
