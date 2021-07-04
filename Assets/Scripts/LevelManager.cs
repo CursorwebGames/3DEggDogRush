@@ -17,12 +17,16 @@ public class LevelManager : MonoBehaviour
     public Dictionary<BiomeType, GameObject[]> sceneChunks = new Dictionary<BiomeType, GameObject[]>();
 
     public Dictionary<BiomeType, Material> levelMats = new Dictionary<BiomeType, Material>();
-    //public Dictionary<BiomeType, Material> sceneMats = new Dictionary<BiomeType, Material>();
+    public Dictionary<BiomeType, GameObject> sceneMats = new Dictionary<BiomeType, GameObject>();
 
     public Vector3 offset;
     public Vector3 leftOffset;
     public Vector3 rightOffset;
     public Vector3 boneOffset;
+
+    public Vector3 startPos;
+    public Vector3 midPos;
+    public Vector3 endPos;
 
     public float tick = 0;
     public float sceneTick = 0;
@@ -44,6 +48,7 @@ public class LevelManager : MonoBehaviour
             levelChunks.Add(biomeEnum, Resources.LoadAll<GameObject>($"obstacles/{biome}"));
             sceneChunks.Add(biomeEnum, Resources.LoadAll<GameObject>($"scenes/{biome}"));
             levelMats.Add(biomeEnum, Resources.Load<Material>($"materials/{biome}/background"));
+            sceneMats.Add(biomeEnum, Resources.Load<GameObject>($"materials/{biome}/road"));
         }
 
         textUpdater = FindObjectOfType<TextUpdater>();
@@ -51,6 +56,11 @@ public class LevelManager : MonoBehaviour
         biome = gameManager.biome;
 
         meshRenderer.material = levelMats[biome];
+
+        GameObject plane = sceneMats[biome];
+        Instantiate(plane, startPos, Quaternion.identity);
+        Instantiate(plane, midPos, Quaternion.identity);
+        Instantiate(plane, endPos, Quaternion.identity);
     }
 
     private void Update()
