@@ -12,6 +12,9 @@ public class PlayerMovement : MonoBehaviour
     public float maxHeight;
     public float laneWidth;
 
+    // if you are pushed back this much the game is over
+    public float gameOverZ;
+
     public Rigidbody rb;
     public float jumpHeight;
 
@@ -46,6 +49,12 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(0, jumpHeight, 0);
             eggDogAnimations.Jump();
         }
+
+        if (transform.position.z < gameOverZ)
+        {
+            Debug.Log("GAME OVER");
+            throw new System.NotImplementedException();
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -54,6 +63,12 @@ public class PlayerMovement : MonoBehaviour
         {
             grounded = true;
             eggDogAnimations.Ground();
+        }
+
+        if (collision.collider.CompareTag("Beams"))
+        {
+            Debug.Log("GAME OVER");
+            throw new System.NotImplementedException();
         }
     }
 
