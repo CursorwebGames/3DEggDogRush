@@ -8,4 +8,9 @@ public class EnemyAnimation : MonoBehaviour
     {
         animator.SetInteger("AnimNum", Random.Range(0, 2));
     }
+
+    public void Hit()
+    {
+        animator.SetInteger("AnimNum", -1);
+    }
 }

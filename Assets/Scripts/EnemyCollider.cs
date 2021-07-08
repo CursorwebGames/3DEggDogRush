@@ -4,6 +4,7 @@ public class EnemyCollider : MonoBehaviour
 {
     public bool isTouched = false;
     public GameObject enemyObject;
+    public EnemyAnimation enemyAnimation;
 
     private LevelManager levelManager;
 
@@ -21,8 +22,7 @@ public class EnemyCollider : MonoBehaviour
         {
             isTouched = true;
             levelManager.AddScore(10);
-            Destroy(enemyObject);
-            // todo: add smash animation
+            enemyAnimation.Hit();
         }   
     }
 }

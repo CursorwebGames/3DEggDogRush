@@ -688,3 +688,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isTouched: 0
   enemyObject: {fileID: 74481121476019315}
+  enemyAnimation: {fileID: 6635883325581490328}
